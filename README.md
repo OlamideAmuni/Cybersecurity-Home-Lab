@@ -12,7 +12,7 @@ The lab is designed to strengthen practical skills in network security, system a
 
 The virtual machines are connected using VMware's **NAT Network (VMnet8)**.
 
-Using a shared NAT network allows every virtual machine to communicate with one another while remaining isolated from the physical network(keeping the virtual Machines in the same  virtual private Subnet. This provides a safe environment for conducting cybersecurity experiments without affecting external devices.
+Using a shared NAT network allows every virtual machine to communicate with one another while remaining isolated from the physical network(keeping the virtual Machines in the same  virtual private Subnet). This provides a safe environment for conducting cybersecurity experiments without affecting external devices.
 
 This network design makes it possible to:
 
