@@ -92,9 +92,10 @@ By allowing these virtual machines to communicate across the same virtual networ
 - Incident investigation
 
 This architecture provides practical experience that closely resembles modern enterprise environments.
+
 ---
 
-![](Screenshot_20260806-124526~2.jpg)
+![Virtual Machines Setup](Screenshot_20260806-124526~2.jpg)
 
 ---
 
