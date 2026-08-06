@@ -12,7 +12,7 @@ The lab is designed to strengthen practical skills in network security, system a
 
 The virtual machines are connected using VMware's **NAT Network (VMnet8)**.
 
-Using a shared NAT network allows every virtual machine to communicate with one another while remaining isolated from the physical network. This provides a safe environment for conducting cybersecurity experiments without affecting external devices.
+Using a shared NAT network allows every virtual machine to communicate with one another while remaining isolated from the physical network(keeping the virtual Machines in the same  virtual private Subnet. This provides a safe environment for conducting cybersecurity experiments without affecting external devices.
 
 This network design makes it possible to:
 
@@ -119,7 +119,6 @@ Future updates will document the implementation of additional technologies and c
 - Sysmon deployment
 - Splunk Cloud integration
 - Splunk Universal Forwarder configuration
-- Wazuh integration
 - Log collection and analysis
 - Detection engineering
 - Additional OT/ICS security components
@@ -130,18 +129,13 @@ Future updates will document the implementation of additional technologies and c
 
 > 🚧 **This repository is currently under active development.**
 
-The home lab is continuously evolving as new technologies, tools, and security concepts are introduced.
+The home lab is continuously evolving as further configurations are needed to completely simulate SOC , Pentesting  and ICS environment.
 
 Future updates will include:
 
-- Detailed implementation guides
-- Security monitoring configurations
-- Detection workflows
+- Security monitoring configurations(sysmon, Splunk)
 - Additional virtual machines
-- SIEM integration
-- OT/ICS security simulations
-
-This repository reflects my continuous learning journey and will be updated as the lab expands.
+- OT/ICS security simulations (OpenPLC, ScadaBR)
 
 ---
 
