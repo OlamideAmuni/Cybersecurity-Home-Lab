@@ -133,7 +133,7 @@ Future updates will document the implementation of additional technologies and c
 
 > 🚧 **This repository is currently under active development.**
 
-The home lab is continuously evolving as further configurations are needed to completely simulate SOC , Pentesting  and ICS environment.
+The home lab will be updated as further configurations are needed to completely simulate SOC , Pentesting  and ICS environment.
 
 Future updates will include:
 
