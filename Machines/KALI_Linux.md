@@ -64,7 +64,7 @@ For example, when working with vulnerable machines such as Kioptrix, Kali acts a
 ```
 
 ## Network Configuration
-The Kali VM is connected to my isolated home-lab network so that it can communicate with other virtual machines used for testing.
+The Kali VM is connected to my isolated home-lab network (VMnet8, NAT) so that it can communicate with other virtual machines (which is connected  to the same networ NAT) used for testing.
 The network configuration allows me to build scenarios where Kali can interact with vulnerable targets and defensive machines inside the lab.
 
 ---
